@@ -1,0 +1,38 @@
+{
+    "name": "vamtiger-copy-file",
+    "version": "0.0.2",
+    "description": "Copy a file from a defined source to destination path.",
+    "main": "build",
+    "scripts": {
+        "test": "mocha build/test --recursive",
+        "build": "tsc",
+        "commit": "vamtigerNodeTypescriptCommit --push --publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vamtiger-project/vamtiger-copy-file.git"
+    },
+    "keywords": [
+        "copy",
+        "file"
+    ],
+    "author": "Vamtiger Immortalles",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vamtiger-project/vamtiger-copy-file/issues"
+    },
+    "homepage": "https://github.com/vamtiger-project/vamtiger-copy-file#readme",
+    "types": "build/index.d.ts",
+    "devDependencies": {
+        "@types/chai": "^4.0.10",
+        "@types/mocha": "^2.2.44",
+        "@types/node": "^8.5.1",
+        "chai": "^4.1.2",
+        "mocha": "^4.0.1",
+        "typescript": "^2.6.2",
+        "vamtiger-bash": "^0.0.16",
+        "vamtiger-create-file": "^0.0.7",
+        "vamtiger-get-directory-content": "^0.0.31",
+        "vamtiger-node-typescript-commit": "0.0.50"
+    }
+}
