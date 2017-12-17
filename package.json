@@ -1,6 +1,6 @@
 {
     "name": "vamtiger-copy-file",
-    "version": "0.0.4",
+    "version": "0.0.5-0",
     "description": "Copy a file from a defined source to destination path.",
     "main": "build",
     "scripts": {
