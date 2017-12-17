@@ -33,6 +33,6 @@
         "vamtiger-bash": "^0.0.16",
         "vamtiger-create-file": "^0.0.7",
         "vamtiger-get-directory-content": "^0.0.31",
-        "vamtiger-node-typescript-commit": "0.0.50"
+        "vamtiger-node-typescript-commit": "^0.0.50"
     }
 }
